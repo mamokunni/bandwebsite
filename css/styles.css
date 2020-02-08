@@ -1,11 +1,80 @@
-.h1{
+.h1_kayaki{
   color: blue;
+  text-align: center;
+
 }
 
 .italic{
   text-align: right;
 }
+.textbox{
+border: 40px;
+padding: 20px;
+margin-right: 5%;
+margin-left: 5%;
+}
 
 body{
+  text-align: justify;
+}
+
+.list{
+  list-style-type: none;
+  display: inline;
+  color: lightgreen;
   text-align: center;
+  font-size: 30px;
+}
+.centre{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.menu{
+  float: none;
+}
+
+img{
+  display: block;
+  float:left;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.sidebar{
+  float: right;
+  width: 10%;
+  background-position: left;
+  background-color: lightblue;
+  border: 2px solid black;
+  padding-left: 12px;
+  padding-right: 10px;
+  margin-left: 20px;
+
+}
+
+.column{
+  width: 350px;
+  float: left;
+  color: brown;
+  margin: 12px;
+}
+
+.column1{
+  color: purple;
+  margin: 12px;
+}
+
+.section{
+  background-color: lightblue;
+  padding-top: 2px;
+}
+
+.Band{
+  float: none;
+  background-image: url("images/3.png");
 }
